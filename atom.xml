@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://youtube.com/"/>
-  <updated>2019-02-11T09:37:18.719Z</updated>
+  <updated>2019-02-12T10:14:14.411Z</updated>
   <id>http://youtube.com/</id>
   
   <author>
@@ -17,21 +17,20 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>How to make Hexo Web</title>
-    <link href="http://youtube.com/2019/02/04/How-to-make-Hexo-Web/"/>
-    <id>http://youtube.com/2019/02/04/How-to-make-Hexo-Web/</id>
-    <published>2019-02-04T09:48:44.000Z</published>
-    <updated>2019-02-11T09:37:18.719Z</updated>
+    <title>Post Baruku</title>
+    <link href="http://youtube.com/2019/02/11/Post-Baruku/index/"/>
+    <id>http://youtube.com/2019/02/11/Post-Baruku/index/</id>
+    <published>2019-02-11T07:28:09.000Z</published>
+    <updated>2019-02-12T10:14:14.411Z</updated>
     
-    <content type="html"><![CDATA[<p>Hello Everybody. Welcome to web hexo. Hexo it’s so simple.</p><p>Berikut ini cara membuat web Hexo:</p><h1 id="1-Membuat-Akun-dan-Repository-Github"><a href="#1-Membuat-Akun-dan-Repository-Github" class="headerlink" title="1. Membuat Akun dan Repository Github"></a>1. Membuat Akun dan Repository Github</h1><p>Dengan membuat akun <a href="https://github.com/" target="_blank" rel="noopener">Github</a> jika sudah membuat akun, berikutnya buat file Repository Github:<br><strong>Profile &gt; Your Repositories &gt; New Repository &gt; Isikan Nama Repository &gt; Create Repository</strong><br><img src="\about\LI3.png" alt="LI3" title="LI3"><br>LI3.png (New Repositories)<br><img src="\about\LI2.png" alt="LI2" title="LI2"><br>LI2.png (Create Repositories)</p><h1 id="2-Install-NodeJS-and-Hexo"><a href="#2-Install-NodeJS-and-Hexo" class="headerlink" title="2. Install NodeJS and Hexo"></a>2. Install NodeJS and Hexo</h1><p>Download software tersebut:<br>-<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">NodeJS</a></p><p>Masuk ke <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> :</p><ol><li>Masuk ke Command Prompt ketik perintah install <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a><br><img src="\about\LI0.png" alt="LI0" title="LI0"><br>Untuk menge-check sudah terinstall dan versi Hexo<br><img src="\about\LI4.png" alt="LI4" title="LI4"><br><img src="\about\LI5.png" alt="LI5" title="LI5"></li></ol><h1 id="3-How-to-Hexo-web"><a href="#3-How-to-Hexo-web" class="headerlink" title="3. How to Hexo web"></a>3. How to Hexo web</h1><p>Buat folder untuk asset file web hexo seperti gambar dibawah ini:<br>-<img src="\about\LI8.png" alt="LI8" title="LI8"></p><p>-Folder yang telah dibuat, masuk ke dalam Command Prompt untuk membuat Hexo web tersebut.<br><img src="\about\LI6.png" alt="LI6" title="LI6"><br>Untuk memulai Hexo web kalian, masukan command: <em>hexo server</em><br>maka ada running <em>localhost:4000</em> masukan command tersebut dari itulah web server Hexo kamu.</p><h1 id="4-Install-Hexo-Theme-and-Deploy"><a href="#4-Install-Hexo-Theme-and-Deploy" class="headerlink" title="4.Install Hexo Theme and Deploy"></a>4.Install Hexo Theme and Deploy</h1><p>Cari themes hexo di website <a href="https://hexo.io/themes/" target="_blank" rel="noopener">Hexo Themes</a>.</p><p>Sebelum lanjut kamu harus download text editor untuk editing script web hexo kamu. Saya pakai atom, untuk rekomendasi text editor pakailah atom atau notepad++ (Untuk mendowload Atom <a href="https://atom.io/" target="_blank" rel="noopener">Click here</a>)</p><p>Untuk Install Themes Hexo kalian lakukan lah sesuai instruksi tersebut contoh Install Themes Archer :</p><ol><li><p>Perintah instalasi ke command untuk penginstallan &gt; <strong>npm i hexo-generator-json-content –save &amp;&amp; npm i –save hexo-wordcount &amp;&amp; git clone <a href="https://github.com/fi3ework/hexo-theme-archer.git" target="_blank" rel="noopener">https://github.com/fi3ework/hexo-theme-archer.git</a> themes/archer</strong>.<br><img src="\about\LI9.png" alt="LI9" title="LI9"></p></li><li><p>Di dalam script folder web kamu ada <strong>_config.yml</strong> masuk ke text editor dan ubah bagian theme yang kalian pakai  <strong>themes: Archer</strong>.</p></li></ol><p><strong> Deploy </strong><br>1.<strong>hexo generate –watch</strong><br>2.<strong>hexo clean</strong><br>3.<strong>hexo deploy</strong><br>Setelah mendeploy untuk yang pertama kali akan disuruh masuk ke akun github, dan folder website kalian akan masuk Repository Github dengan nama kalian buat masuk alamat website kamu <strong>username-kalian.github.io</strong>.</p><h1 id="5-Make-a-Post"><a href="#5-Make-a-Post" class="headerlink" title="5. Make a Post"></a>5. Make a Post</h1><p>Masukan perintah di command <strong>hexo new post “judul kalian”</strong>, dengan begitu telah terbuat script di folder web kalian : <strong>source &gt; _posts &gt; judul-post-kalian</strong>.<br>Jika kalian ingin menaruh gambar ke postingan kalian, dengan pindahkan gambar ke dalam folder script post kalian. Kemudian pada script post tambahkan:</p><h1 id="6-Enable-on-About"><a href="#6-Enable-on-About" class="headerlink" title="6. Enable on About"></a>6. Enable on About</h1><p>Di-tema saya mengaktifkan about, dengan membuat post baru:<br><strong>hexo new page “about”</strong> &gt; <strong>layout :about</strong><br>Dan masuk ke <strong>_config.yml</strong> mengubah about menjadi <em>true</em><br><strong><em>about:<br>  enable: false<br>  image: /FolderGambar/Wallpaper-Kalian.png</em></strong><br>  <img src="\about\LI10.png" alt="LI10" title="LI10"></p>]]></content>
+    <content type="html"><![CDATA[<p>Example : <img src="\about\download.png" alt="download" title="download"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Hello Everybody. Welcome to web hexo. Hexo it’s so simple.&lt;/p&gt;
-&lt;p&gt;Berikut ini cara membuat web Hexo:&lt;/p&gt;
-&lt;h1 id=&quot;1-Membuat-Akun-dan-Repos
+        &lt;p&gt;Example : &lt;img src=&quot;\about\download.png&quot; alt=&quot;download&quot; title=&quot;download&quot;&gt;&lt;/p&gt;
+
       
     
     </summary>
